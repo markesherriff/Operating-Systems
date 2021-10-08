@@ -1,0 +1,23 @@
+Exercise 10
+Operating Systems CPAN133B
+N01299223 : Mark Sherriff
+1.egrep   "video" words
+This command finds all occurrences with the word “video” in it.
+2.egrep   "^video$" words
+This command finds all occurrences with the only the word “video” in it.
+3.egrep "video.*" words
+This command finds all occurrences with the word “video” at the start, and zero or more characters after it.
+4.egrep   ".tape."    word
+This command finds all occurrences with the word “tape” in the middle of it.
+5.egrep "video|stereo" words
+This command finds all occurrences with the word “video” or “stereo” in it.
+6.egrep "(video|stereo)tape" words
+This command finds all occurrences with the word “video” or “stereo”,  and “tape” in it.
+7.egrep "(video|stereo)tape." Words
+This command finds all occurrences with the word “video” or “stereo”,  and “tape” at the start of it.
+8.egrep "[^a-z]" words
+This command finds all words with a character a to z in it.
+9.egrep "[^a-z]." words
+This command finds all words with a character a to z at the start of it.
+10.egrep "[^a-z]?" words
+This command finds all words with a character a to z with at least one character after it.
